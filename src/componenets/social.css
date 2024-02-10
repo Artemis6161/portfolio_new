@@ -1,0 +1,11 @@
+.social{
+    position: fixed;
+    display: flex;
+   flex-direction: column; 
+ 
+   padding: 5vw 3vw;
+}
+.icons{
+    margin-bottom: 30px;
+    font-size: 20px;
+}

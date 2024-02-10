@@ -1,0 +1,14 @@
+.skill{
+    padding-bottom: 5vw;
+}
+.skill_continer{
+    transform: rotate(-5deg);
+    background-color: greenyellow;
+    height:5vw;
+    padding: 1vw;
+}
+.icons_skill{
+   
+    margin-left: 8vw;
+    font-size: 3vw;
+}

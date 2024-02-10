@@ -1,0 +1,18 @@
+
+.container {
+    
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 75%;
+    text-align: center;
+}
+.text h1{
+    font-size: 8vw;
+  /* font-size: 47.78px; */
+}
