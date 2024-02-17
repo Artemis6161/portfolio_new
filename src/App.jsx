@@ -7,6 +7,8 @@ import Project from './componenets/project.jsx'
 import Contact from './componenets/contact.jsx'
 import './App.css'
 
+
+
 function App() {
 
 
@@ -16,8 +18,9 @@ function App() {
 <Social/>
     <Hero/>
     <Intro/>
-    <Skill/>
-  <Project/>
+    {/* <Skill/> */}
+   
+  {/* <Project/> */}
   <Contact/>
     </>
   )

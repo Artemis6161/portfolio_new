@@ -1,15 +1,20 @@
 import React from 'react'
-import "./hero.css"
+import './hero.css'
+
+
 const hero = () => {
   return (
-    
-    <section class="container">
-    <div class="text">
-        <h1>hi there, i'm sangeetha rajan</h1>
-        <p>a web developer</p>
+    <section className='container'>
+    <div className="text">
+    <h1>
+    sangeetha Rajan
+   </h1>
+   <p>web developer</p>
     </div>
-</section>
+
+    </section>
   )
 }
 
 export default hero
+

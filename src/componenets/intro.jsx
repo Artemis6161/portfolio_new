@@ -1,15 +1,22 @@
 import React from 'react'
-import "./intro.css"
-import img from "../assets/girl.png"
+import './intro.css'
 
 
 const intro = () => {
   return (
-   <div className="intro">
+    <section className='intro'>
+    {/* <div> */}
     <p>
-Hello and welcome! I'm Sangeetha Rajan, a passionate front-end web developer dedicated to crafting immersive digital experiences. With a keen eye for design and a love for clean, efficient code, I specialize in bringing creative visions to life through captivating user interfaces.</p>
-   <img src={img} alt="" />
-   </div>
+      I am a skilled and innovative web developer with a passion for creating dynamic and user-friendly websites
+      </p>
+    {/* </div> */}
+  
+      <div className="image">
+      <img src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" alt="" />
+   <img src="https://www.adobe.com/acrobat/hub/media_173d13651460eb7e12c0ef4cf8410e0960a20f0ee.jpeg?width=750&format=jpeg&optimize=medium" alt="" />
+      </div>
+   
+    </section>
   )
 }
 

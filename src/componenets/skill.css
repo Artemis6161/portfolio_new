@@ -1,8 +1,11 @@
 .skill{
-    padding-bottom: 5vw;
+    padding-bottom: 10vw;
+ overflow: hidden;
+ position: relative;
 }
 .skill_continer{
-    transform: rotate(-5deg);
+    position: sticky;
+    transform: rotate(-6deg);
     background-color: greenyellow;
     height:5vw;
     padding: 1vw;
@@ -11,4 +14,16 @@
    
     margin-left: 8vw;
     font-size: 3vw;
+}
+.skill_continer2{
+    position: sticky;
+    transform: rotate(15deg);
+    background-color: greenyellow;
+    height:5vw;
+    padding: 1vw;
+    z-index: -1;
+}
+.skill-title h1{
+    padding:3vw;
+    
 }

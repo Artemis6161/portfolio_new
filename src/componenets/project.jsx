@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-const project = () => {
+const Project = ({ data }) => {
   return (
     <div>
-      project
+      {data.map(item => (
+        <div key={item.id}>
+          <img src={item.image} alt={item.title} />
+          <h2>{item.title}</h2>
+          <p>{item.description}</p>
+          <a href={item.link}>Learn More</a>
+        </div>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default project
+export default Project;
